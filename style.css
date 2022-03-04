@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    background-image: url(Home.jpg);
+    background-size: cover;
+
+}
+#particle-js{
+    color: #fff;
+}
+.header{
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+}
+.header ul{
+        color: black;
+        font-size: 50px;
+        position: absolute;
+        top: -5%;
+        left: 31%;
+}
+
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+}
+.header ul li a:hover{
+    background: #fff;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+.middle{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: 500;
+    font-size: xx-large;
+    font-size: 150px;
+}
+.boobies{
+    background: -webkit-linear-gradient(white, #06008c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+}
+.boobies1{
+    background: -webkit-linear-gradient(white, 	#06008c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    position: absolute;
+    top: 30%;
+}
+#particle-js{
+    background-image: url(IMG_0860.JPG);
+    background-size: cover;
+}
+.Socials{
+    position: absolute;
+    top: 65%;
+    left: 46%;
+    
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cyberpunk | Team</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="teamstyle.css">
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="Cyberpunk.html">Home</a></li>
+            <li><a href="Roadmap.html">Roadmap</a></li>
+            <li><a href="SneakPeak.html">SneakPeak</a></li>
+            <li><a href="Team.html">Team</a></li>
+            <li><a href="Faq.html">FAQ</a></li>
+        </ul>
+    </div>
+     <div class="navbar">
+          <div class="logo">
+               <img src="frame.png" alt="">
+          </div>
+          <div class="menu-btn">
+               <img src="menu.png" alt="">
+          </div>
+     </div>
+
+     <div class="bottom">
+          <p>OUR TEAM</p>
+          <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Shizuru&family=Source+Sans+Pro:ital,wght@1,300&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+     </div>
+
+     <section class="center slider">
+          <div>
+               <img src="Aiden.png" alt="">
+               <h3>Aiden</h3>
+               <p>Project Manager</p>
+          </div>
+          <div>
+               <img src="Me.PNG" alt="">
+               <h3>Lamooooo</h3>
+               <p>Developer</p>
+          </div>
+          <div>
+               <img src="Amelia.png" alt="">
+               <h3>Amelia</h3>
+               <p>Lead Artist</p>
+          </div>
+          <div>
+            <img src="Ston.jpg" alt="">
+            <h3>! STON LICON</h3>
+            <p>Project Manager</p>
+       </div>
+       <div>
+          <img src="aladin.jpg" alt="">
+          <h3>Aladin</h3>
+          <p>Community Manager</p>
+     </div>
+     </section>
+
+     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+     <script src="./slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+     <script type="text/javascript">
+
+     $(document).on('ready', function() {
+
+     $(".center").slick({
+
+     dots: false,
+     infinite: false,
+     centerMode: true,
+     slidesToShow: 2,
+     slidesToScroll: 1,
+     arrows: false,
+
+     responsive: [{
+
+     breakpoint: 1024,
+     settings: {
+          slidesToShow: 2,
+          infinite: true
+     }
+
+}, {
+
+     breakpoint: 600,
+     settings: {
+          slidesToShow: 1,
+          dots: true
+     }
+
+}, {
+
+     breakpoint: 300,
+     settings: "unslick" //destroy slick
+
+}]
+
+});
+
+});
+
+     </script>
+</body>
+</html>
